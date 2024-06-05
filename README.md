@@ -11,4 +11,4 @@
 Чтобы собрать контейнер, выполните следующую команду в директории с Dockerfile:
 
 ```bash
-docker build -t netology-ml:netology-ml .
+docker build . --file Dockerfile.txt
